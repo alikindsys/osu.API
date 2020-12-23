@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace osu.API.Data.User {
+namespace osu.API.Data {
     public class UserEvent {
         [JsonProperty("id")]
         public int ID { get; set; }

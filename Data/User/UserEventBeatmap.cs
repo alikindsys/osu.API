@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace osu.API.Data.User {
+namespace osu.API.Data {
     public class UserEventBeatmap {
         [JsonProperty("title")]
         public string Title { get; set; }
