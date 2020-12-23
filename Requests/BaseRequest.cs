@@ -17,7 +17,7 @@ namespace osu.API.Requests {
 
         public string Url => string.Join("/", UrlParameters.Select(x => $"{(x.valueOnly ? $"{x.Value}" : $"{x.Key}/{x.Value}")}"));
         public string Query => string.Join("&", QueryParameters.Select(x => $"{x.Key}={x.Value}"));
-        public string RequestUrl => $"{BaseUrl}/{Url}?{Query}";
+        public string RequestUrl => $"{BaseUrl}/{Url}{(string.IsNullOrWhiteSpace(Query)?"":$"?{Query}")}";
 
     }
 }
