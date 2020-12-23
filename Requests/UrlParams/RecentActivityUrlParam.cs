@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace osu.API.Requests.UrlParams {
+namespace osu.API.Requests.Parameters {
     public class RecentActivityUrlParam : UrlParam {
         public string Key { get; private set; }
 
