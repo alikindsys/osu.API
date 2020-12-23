@@ -1,4 +1,4 @@
-﻿using osu.API.Requests.Parameters.Enums;
+﻿using osu.API.Data.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
