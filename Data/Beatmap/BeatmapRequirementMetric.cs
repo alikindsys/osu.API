@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace osu.API.Data {
-    class BeatmapRequirementMetric {
+    public class BeatmapRequirementMetric {
         [JsonProperty("current")]
         public int Current { get; set; }
 
