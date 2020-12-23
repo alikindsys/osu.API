@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace osu.API.Requests.UrlParams.Enums {
+namespace osu.API.Data.Enums {
     public enum ScoreType {
         BEST, FIRSTS, RECENT
     }

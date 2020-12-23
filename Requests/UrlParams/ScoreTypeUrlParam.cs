@@ -1,5 +1,5 @@
-﻿using osu.API.Requests.Parameters;
-using osu.API.Requests.UrlParams.Enums;
+﻿using osu.API.Data.Enums;
+using osu.API.Requests.Parameters;
 using System;
 using System.Collections.Generic;
 using System.Linq;
