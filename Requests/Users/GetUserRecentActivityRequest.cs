@@ -24,5 +24,15 @@ namespace osu.API.Requests.Users {
             QueryParameters.AddOptional(limit);
             QueryParameters.AddOptional(offset);
         }
+
+        public GetUserRecentActivityRequest(ulong userId, string accessToken)
+            : this(new UserUrlParam(userId), accessToken) {
+
+        }
+
+        public GetUserRecentActivityRequest(ulong userId, string accessToken, int limit = 5, int offset = 0)
+            : this(new UserUrlParam(userId), accessToken, new LimitQueryParam(limit), new OffsetQueryParam(offset)) {
+
+        }
     }
 }
