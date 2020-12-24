@@ -2,6 +2,7 @@
 using osu.API.Extensions;
 using osu.API.Requests.Parameters;
 using osu.API.Requests.QueryParams;
+using osu.API.Requests.UrlFragments;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,14 +13,14 @@ namespace osu.API.Requests.Users {
     public class GetUserRecentActivityRequest : AuthenticatedGetRequest<List<UserEvent>> {
         public GetUserRecentActivityRequest(UserUrlParam user, string accessToken) : base(accessToken) {
             UrlParameters.Add(user);
-            UrlParameters.Add(new RecentActivityUrlParam());
+            UrlFragments.Add(new RecentActivityFragment());
         }
 
         public GetUserRecentActivityRequest(UserUrlParam user, string accessToken,
             LimitQueryParam limit = null, OffsetQueryParam offset = null
             ) : base(accessToken) {
             UrlParameters.Add(user);
-            UrlParameters.Add(new RecentActivityUrlParam());
+            UrlFragments.Add(new RecentActivityFragment());
 
             QueryParameters.AddOptional(limit);
             QueryParameters.AddOptional(offset);
