@@ -14,6 +14,22 @@ The Api is divided on the following namespaces
 ## This project targets the `V2` of the api **exclusively**
 If need be, support for V1 could be worked later, but thats not currently planned.
 
+## Library Usage
+```cs
+//This will be simplified under osuClient, but thats not currently implemented
+
+//Gets a token from the api
+var token = await Authentication.OAuthClientCredentialsAsync(credentials, httpClient);
+
+//Build a Request
+
+//Names of Request classes **are** the canonical name given by the apidocumentation!
+GetUserRequest userRequest = new(8945532,Gamemode.Mania, token.Token);
+
+//Execute the request
+var user = await userRequest.GetAsync(httpClient);
+```
+
 ## What is a Request?
 A Rquest object is any call to the osu! endpoint,
 and a list of those requests are available on the official documentation.
