@@ -13,7 +13,7 @@
 - - [ ] [GetRanking](https://osu.ppy.sh/docs/#get-ranking)
 - - [ ] [GetSpotlights](https://osu.ppy.sh/docs/#get-spotlights)
 
-- [ ] Chat
+- [ ] Chat <lazer> `low-priority`
 - - [ ] [CreateNewPM](https://osu.ppy.sh/docs/#create-new-pm)
 - - [ ] [GetUpdates](https://osu.ppy.sh/docs/#get-updates)
 - - [ ] [GetChannelMessages](https://osu.ppy.sh/docs/#get-channel-messages)
@@ -24,8 +24,8 @@
 - - [ ] [GetChannelList](https://osu.ppy.sh/docs/#get-channel-list)
 - - [ ] [CreateChannel](https://osu.ppy.sh/docs/#create-channel)
 
-- [ ] Comments
-- - [ ] [GetComments](https://osu.ppy.sh/docs/#get-comments)
+- [ ] Comments <lazer> `low-priority`
+- - [ ] [GetComments](https://osu.ppy.sh/docs/#get-comments) <public>
 - - [ ] [PostANewComment](https://osu.ppy.sh/docs/#post-a-new-comment)
 - - [ ] [GetAComment](https://osu.ppy.sh/docs/#get-a-comment)
 - - [ ] [EditComment](https://osu.ppy.sh/docs/#edit-comment)
@@ -33,12 +33,12 @@
 - - [ ] [AddCommentVote](https://osu.ppy.sh/docs/#add-comment-vote)
 - - [ ] [RemoveCommentVote](https://osu.ppy.sh/docs/#remove-comment-vote)
 
-- [ ] Multiplayer
+- [ ] Multiplayer <lazer> `low-priority`
 - - [ ] [GetUserHighScore](https://osu.ppy.sh/docs/#get-user-high-score)
-- - [ ] [GetScores](https://osu.ppy.sh/docs/#get-scores)
+- - [ ] [GetScores](https://osu.ppy.sh/docs/#get-scores) <public>
 - - [ ] [GetAScore](https://osu.ppy.sh/docs/#get-a-score)
 
-- [ ] Notification
+- [ ] Notification <lazer> `low-priority`
 - - [ ] [GetNotifications](https://osu.ppy.sh/docs/#get-notifications)
 - - [ ] [MarkNotificationsAsRead](https://osu.ppy.sh/docs/#mark-notifications-as-read)
 
