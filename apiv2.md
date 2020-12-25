@@ -7,7 +7,7 @@
 - - [x] [GetUserBeatmaps](https://osu.ppy.sh/docs/#get-user-beatmaps) `2cbe91a`
 - - [x] [GetUserRecentActivity](https://osu.ppy.sh/docs/#get-user-recent-activity) `25d014d`
 - - [x] [GetUser](https://osu.ppy.sh/docs/#get-user) `34b6016`
-- - [ ] [GetUsers](https://osu.ppy.sh/docs/#get-users)
+- - [x] [GetUsers](https://osu.ppy.sh/docs/#get-users) `918a7fc`
 
 - [ ] Ranking
 - - [ ] [GetRanking](https://osu.ppy.sh/docs/#get-ranking)
