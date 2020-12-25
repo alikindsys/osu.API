@@ -17,6 +17,12 @@
 - - [ ] GetBeatmap (/beatmaps/{beatmap})
 - - [ ] LookupBeatmap (/beatmaps/lookup)
 - - [ ] GetBeatmapScores (/beatmaps/{id}/scores)
+- - [ ] GetBeatmapset (/beatmapsets/{beatmapset})
+- - [ ] DownloadBeatmapset (/beatmapsets/{beatmapset}/download) `low-prio`
+- - [ ] LookupBeatmapset (/beatmapsets/lookup)
+- - [ ] SearchBeatmapset (/beatmapsets/search/{filters?})
+- - [ ] GetBeatmapsetEvents (/beatmapsets/events)
+- - [ ] GetBeatmapsetFavourites (/beatmapsets/{beatmapset}/favourites)
 
 - [ ] Chat <lazer> `low-priority`
 - - [ ] [CreateNewPM](https://osu.ppy.sh/docs/#create-new-pm)
@@ -54,8 +60,6 @@ List of Uncategorized Requests
 ---
 Once a request is categorized and researched implementation on it can begin.
 
-- /beatmapsets/events
-- /beatmapsets/{beatmapset}/favourites
 - /chat/presence
 - /changelog/{stream}/{build}
 - /changelog
@@ -73,10 +77,6 @@ Once a request is categorized and researched implementation on it can begin.
 - /seasonal-backgrounds
 - /scores/{mode}/{score}/download
 - /scores/{mode}/{score}
-- /beatmapsets/search/{filters?}
-- /beatmapsets/lookup
-- /beatmapsets/{beatmapset}/download
-- /beatmapsets/{beatmapset}
 - /friends
 - /me/download-quota-check
 - /news
