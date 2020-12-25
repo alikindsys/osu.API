@@ -73,3 +73,16 @@ public class GetUserRequest : AuthenticatedGetRequest<User> {
 ```
 
 All of the html request handling and response parsing is done by `AuthenticatedGetRequest`.
+
+Request Types
+---
+- `GetRequest<T>` - A generic `GET` request that does not require authentiaction  
+- `AuthenticatedGetRequest<T>` - A generic `GET` request that requires an acess token  
+- `LazerRequest<T>` - Dummy request that does nothing. Used *exclusively* by the osu!lazer client.  
+Exists here for future proofing reasons (maybe the API will be opened to the public?). You can't even use them.
+
+Wrappers for the following HTTP request types exist:
+
+- `GET` `POST`
+
+Examples on how to implement a request and all implemented requests are available under [`Requests/`](Requests/)
