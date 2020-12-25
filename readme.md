@@ -14,6 +14,8 @@ The Api is divided on the following namespaces
 ## This project targets the `V2` of the api **exclusively**
 If need be, support for V1 could be worked later, but thats not currently planned.
 
+To see what requests are currently implemented [click here](apiv2.md)
+
 ## Library Usage
 ```cs
 //This will be simplified under osuClient, but thats not currently implemented
