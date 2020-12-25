@@ -13,6 +13,11 @@
 - - [ ] [GetRanking](https://osu.ppy.sh/docs/#get-ranking)
 - - [ ] [GetSpotlights](https://osu.ppy.sh/docs/#get-spotlights)
 
+- [ ] Beatmap
+- - [ ] GetBeatmap (/beatmaps/{beatmap})
+- - [ ] LookupBeatmap (/beatmaps/lookup)
+- - [ ] GetBeatmapScores (/beatmaps/{id}/scores)
+
 - [ ] Chat <lazer> `low-priority`
 - - [ ] [CreateNewPM](https://osu.ppy.sh/docs/#create-new-pm)
 - - [ ] [GetUpdates](https://osu.ppy.sh/docs/#get-updates)
@@ -68,9 +73,6 @@ Once a request is categorized and researched implementation on it can begin.
 - /seasonal-backgrounds
 - /scores/{mode}/{score}/download
 - /scores/{mode}/{score}
-- /beatmaps/{id}/scores
-- /beatmaps/lookup
-- /beatmaps/{beatmap}
 - /beatmapsets/search/{filters?}
 - /beatmapsets/lookup
 - /beatmapsets/{beatmapset}/download
