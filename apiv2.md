@@ -15,11 +15,11 @@
 
 - [ ] Beatmap
 - - [x] GetBeatmap (/beatmaps/{beatmap}) `13776b5`
-- - [ ] LookupBeatmap (/beatmaps/lookup)
+- - [x] LookupBeatmap (/beatmaps/lookup) `6fc3f61`
 - - [x] GetBeatmapScores (/beatmaps/{id}/scores) `3ccf371`
 - - [x] GetBeatmapset (/beatmapsets/{beatmapset}) `26d277b`
 - - [ ] DownloadBeatmapset (/beatmapsets/{beatmapset}/download) `low-prio`
-- - [ ] LookupBeatmapset (/beatmapsets/lookup)
+- - [x] LookupBeatmapset (/beatmapsets/lookup) `add1b0b`
 - - [ ] SearchBeatmapset (/beatmapsets/search/{filters?})
 - - [ ] GetBeatmapsetEvents (/beatmapsets/events)
 - - [ ] GetBeatmapsetFavourites (/beatmapsets/{beatmapset}/favourites)
