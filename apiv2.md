@@ -14,10 +14,10 @@
 - - [ ] [GetSpotlights](https://osu.ppy.sh/docs/#get-spotlights)
 
 - [ ] Beatmap
-- - [ ] GetBeatmap (/beatmaps/{beatmap})
+- - [x] GetBeatmap (/beatmaps/{beatmap}) `13776b5`
 - - [ ] LookupBeatmap (/beatmaps/lookup)
-- - [ ] GetBeatmapScores (/beatmaps/{id}/scores)
-- - [ ] GetBeatmapset (/beatmapsets/{beatmapset})
+- - [x] GetBeatmapScores (/beatmaps/{id}/scores) `3ccf371`
+- - [x] GetBeatmapset (/beatmapsets/{beatmapset}) `26d277b`
 - - [ ] DownloadBeatmapset (/beatmapsets/{beatmapset}/download) `low-prio`
 - - [ ] LookupBeatmapset (/beatmapsets/lookup)
 - - [ ] SearchBeatmapset (/beatmapsets/search/{filters?})
